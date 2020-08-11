@@ -2,6 +2,32 @@
 
 .app {
   width: 600px;
+  height: 600px;
   margin: 80px auto $base-margin auto;
   background-color: $white;
+}
+
+#header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Times New Roman";
+  font-weight: bolder;
+}
+
+label {
+  border: black 1px;
+}
+
+#blank {
+  height: 60px;
+}
+
+#car {
+  text-align: right;
 }
